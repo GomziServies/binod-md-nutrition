@@ -47077,3 +47077,20 @@ body.single-product.lagre_gallery .breadcrumb-noheading {
 .about-us p {
   font-size: 16px;
 }
+
+/* Custom Pricing Style Updates */
+.price del, 
+.price del span, 
+.price-single del, 
+.price-single del span {
+  color: #ff3b30 !important; /* Vivid red color for original MRP */
+  text-decoration: line-through !important;
+}
+
+/* Discount Badge Style */
+.discount-percentage {
+  color: #28a745 !important; /* Green color for the discount tag */
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-left: 8px !important;
+}
